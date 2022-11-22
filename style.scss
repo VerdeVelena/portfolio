@@ -178,80 +178,106 @@ html {
 	scale: calc(1.2);
 }
 
-.progress-bar-wrapper {
-	margin-bottom: 100px;
-}
-
-.progress-bar {
-	width: 500px;
-	height: 35px;
-	margin: 15px 0;
-	background-color: #ccc;
+.heading-about-me {
+	width: 50%;
+	// height: ;
+	border: 2px solid rgb(87, 87, 95);
 	border-radius: 5px;
-	box-shadow: 1.1px 1.1px 3px #57575a;
-	/* padding: 5px 11px; */
-	position: relative;
+	padding: 5px 15px;
 }
 
-.progress-text {
-	font-size: 11px;
-	font-weight: 500;
-	/* letter-spacing: 1px; */
-	color: white;
-	position: absolute;
-	top: 5px;
-	left: 10px;
+.heading-section-about,
+.heading-section-about-me {
+	font-size: 24px;
+	font-weight: 400;
+	color: rgb(87, 87, 95);
+	letter-spacing: 0.5px;
+	margin: 0 auto;
+	margin-bottom: 75px;
 }
-.progress-text span {
-	margin: 0 5px;
-	font-size: 15px;
-	font-weight: 600;
-}
-
-.progress-percent {
-	width: 0;
-	height: 100%;
-	background-color: #df6bbc;
-	border-radius: 5px;
-	transition: width 0.5s 0.5s ease-in-out;
-}
-
-.services {
-	width: 100%;
-	height: 30vh;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-}
-
-.service {
+.heading-section-about-me {
+	font-size: 26px;
+	font-weight: 400;
+	text-shadow: 1.1px 1.1px 3px rgb(87 87 90);
+	margin-bottom: 25px;
+	display: block;
+	margin-top: 5px;
 	text-align: center;
 }
+// .progress-bar-wrapper {
+// 	margin-bottom: 100px;
+// }
 
-.service:first-child,
-.service:last-child {
-	align-self: flex-start;
-}
+// .progress-bar {
+// 	width: 500px;
+// 	height: 35px;
+// 	margin: 15px 0;
+// 	background-color: #ccc;
+// 	border-radius: 5px;
+// 	box-shadow: 1.1px 1.1px 3px #57575a;
+// 	/* padding: 5px 11px; */
+// 	position: relative;
+// }
 
-.services i {
-	font-size: 85px;
-	color: rgb(87, 87, 95, 0.5);
-	/* text-shadow: 1.1px 1.1px 3px rgb(87, 87, 91); */
-	margin-bottom: 25px;
-}
+// .progress-text {
+// 	font-size: 11px;
+// 	font-weight: 500;
+// 	/* letter-spacing: 1px; */
+// 	color: white;
+// 	position: absolute;
+// 	top: 5px;
+// 	left: 10px;
+// }
+// .progress-text span {
+// 	margin: 0 5px;
+// 	font-size: 15px;
+// 	font-weight: 600;
+// }
 
-.service-heading {
-	width: 150px;
-	font-size: 15px;
-	font-weight: 400;
-	color: white;
-	letter-spacing: 1px;
-	background-color: rgb(87, 87, 95, 0.5);
-	box-shadow: 1.1px 1.1px 3px rgb(87, 87, 90);
-	border-radius: 3px;
-	transform: skew(-10deg);
-	padding: 1px 5px;
-}
+// .progress-percent {
+// 	width: 0;
+// 	height: 100%;
+// 	background-color: #df6bbc;
+// 	border-radius: 5px;
+// 	transition: width 0.5s 0.5s ease-in-out;
+// }
+
+// .services {
+// 	width: 100%;
+// 	height: 30vh;
+// 	display: flex;
+// 	justify-content: space-evenly;
+// 	align-items: center;
+// }
+
+// .service {
+// 	text-align: center;
+// }
+
+// .service:first-child,
+// .service:last-child {
+// 	align-self: flex-start;
+// }
+
+// .services i {
+// 	font-size: 85px;
+// 	color: rgb(87, 87, 95, 0.5);
+// 	/* text-shadow: 1.1px 1.1px 3px rgb(87, 87, 91); */
+// 	margin-bottom: 25px;
+// }
+
+// .service-heading {
+// 	width: 150px;
+// 	font-size: 15px;
+// 	font-weight: 400;
+// 	color: white;
+// 	letter-spacing: 1px;
+// 	background-color: rgb(87, 87, 95, 0.5);
+// 	box-shadow: 1.1px 1.1px 3px rgb(87, 87, 90);
+// 	border-radius: 3px;
+// 	transform: skew(-10deg);
+// 	padding: 1px 5px;
+// }
 /* end of section 2 */
 
 /* section 3 */
@@ -327,6 +353,7 @@ html {
 	height: auto;
 	z-index: 1;
 	transition: opacity 0.3s;
+	z-index: 1;
 }
 
 .project:hover .project-img {
@@ -346,6 +373,7 @@ html {
 	position: absolute;
 	bottom: -25px;
 	transition: bottom 0.3s;
+	z-index: 1;
 }
 .project:hover .project-link {
 	bottom: 50px;
